@@ -1,3 +1,3 @@
 module.exports = function multiply(first, second) {
-  // your solution
+  return (Math.round(first * second * 100) / 100).toString();
 }
